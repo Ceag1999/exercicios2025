@@ -10,8 +10,13 @@ parouimpar = resultado % 2;
 
 if(parouimpar == 0) {
      
-    alert("o numero" + resultado + "e igual");
+    alert("o numero " + resultado + " é igual");
 } else{
-    alert("o numero " + resultado + "e impar")
-    
+    alert("o numero " + resultado + " é impar");
 }
+/*if(resultdo > 10) {
+    alert("o numero" + resultado + "é maior do que 10");
+} else {
+    alert ("o numero" + resultado + "é menor ou igual a que 10");
+}*/
+
