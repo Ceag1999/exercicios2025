@@ -1,27 +1,23 @@
-var nota1;
-var nota2;
-var nota3;
-let total;
+let pontosfaltando;
+var nome = window.prompt ("qual é seu nome?")
+var nota1 = Number(window.prompt("digte aqui a primeira nota"));
+var nota2 = Number(window.prompt("digite aqui a segunda nota"));
+var nota3 = Number(window.prompt("digite aqui a terceira nota"));
 
-function somar(){
-    alert("")
-  num1 = Number(window.prompt("digte aqui o primeiro numero"));
-  num2 = Number(window.prompt("digite aqui o segundo numero"));
-  num3 = Number(window.prompt("digte aqui o terceiro numero"));
- 
 
-let total = (nota1 + nota2 + nota3)/3;
+let total = (nota1 + nota2 + nota3) / 3;
 
- alert("a media final: " + total );
+ alert(nome + ", sua media final é " + total );
 
- if( total>= 60){
+ if( total>= 6.0){
 
-    alert("voce atingiu a media" + media + total);
+    alert(" parabens! " + nome + " voce atingiu a media com " + total);
     alert("aprovado");
  } else{
     pontosfaltando = 60 - total
-    alert("reprovado faltarem " + pontosfaltando + "os pontos ");
+    alert("reprovado, " + nome + ". faltaram " + pontosfaltando + " pontos.");
     alert("o numero " + total + "reprovado");
+
+    alert(" da uma olhada nesses cursos: https://www.alura.com.br");
  }
   
-}
