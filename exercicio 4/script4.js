@@ -7,5 +7,5 @@ function calcular(){
     alert("número de inscritos: " + inscritos + ". equipes: " + equipes )
 }
  if(equipes >= 4) {
-    alert("numero de incritos: " + inscritos + "numero de equipes: " + equipes)
+    alert("é possivel formar 4 equipes, jogo pode iniciar! ")
  }
