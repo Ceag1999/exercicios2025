@@ -19,12 +19,22 @@ h2 {
     font-size: 20px;
     font-weight: bold;
 }
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
 li {
-    margin: 10px auto;
     padding: 10px;
-    background-color: azure;
-    width: 30px;
+    margin: 10px auto;
+    background-color: aqua;
+    width: 30%;
     border-radius: 10px;
+    color: black;
+}
+li:hover {
+    width: 33%;
+    background-color: blue;
 }
 footer {
     background-color: rgb(135, 173, 223);
