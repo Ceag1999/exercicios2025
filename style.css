@@ -1,6 +1,6 @@
 header {
     text-align: center;
-    background-color: black;
+    background-color: rgb(206, 12, 12);
     padding: 30px;
 }
 h1 {
@@ -9,7 +9,7 @@ h1 {
 
 }
 main {
-    background-color: rgb(183, 182, 184);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     padding: 30px;
     margin: 0 auto;
@@ -27,17 +27,17 @@ a{
 li {
     padding: 10px;
     margin: 10px auto;
-    background-color: aqua;
+    background-color: rgb(207, 10, 10);
     width: 30%;
     border-radius: 10px;
     color: black;
 }
 li:hover {
     width: 33%;
-    background-color: blue;
+    background-color: rgb(0, 81, 255);
 }
 footer {
-    background-color: rgb(135, 173, 223);
+    background-color: rgb(206, 28, 28);
     text-align: center;
     padding: 20px 0 30px 0;
 }
