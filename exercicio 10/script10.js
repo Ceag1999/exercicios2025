@@ -7,4 +7,5 @@ function contador(){
         mostraHTML.innerHTML += `${contador} &#129323; `;
         contador++;
     }
+
 }
